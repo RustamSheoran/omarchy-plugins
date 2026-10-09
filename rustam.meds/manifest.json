@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "rustam.meds",
+  "name": "Medication Tracker",
+  "version": "1.0.0",
+  "author": "Rustam",
+  "description": "Daily medication pill reminder and tracker with scheduled morning/evening doses",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Medication Tracker",
+    "description": "Daily pill reminders with Magnesium and B12 tracking",
+    "category": "Health",
+    "allowMultiple": false,
+    "defaultSection": "center"
+  }
+}

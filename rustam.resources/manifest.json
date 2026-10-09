@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "rustam.resources",
+  "name": "System Resources",
+  "version": "1.0.0",
+  "author": "Rustam",
+  "description": "System resource monitor showing CPU, RAM, Disk, Temperature, and Top Processes",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "System Resources",
+    "description": "Live CPU, RAM and system monitors with detail popup",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "left"
+  }
+}
